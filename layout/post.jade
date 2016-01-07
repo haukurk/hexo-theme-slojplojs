@@ -1,0 +1,17 @@
+extends layouts/base
+
+block title
+    != page.title + " · " + config.title
+
+block description
+    - var desc = page.content.slice(0, 600).replace(/<[^>]+>/g,"")
+    meta(name="description", content=desc)
+
+block content
+    include mixins/post
+    +post(page)
+
+block footer
+    include mixins/pagination
+    +post_page_nav()
+    include partials/comments

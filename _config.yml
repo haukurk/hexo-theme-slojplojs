@@ -1,0 +1,36 @@
+# Default Menu.
+menu:
+    hauxi.is: https://hauxi.is
+    github: https://github.com/haukurk
+    rss: /atom.xml
+
+# Default icons.
+favicon: /cup.png
+logo: /cup.png
+
+# Default language is English.
+language: en
+
+# comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+node_sass:
+    outputStyle: compressed
+
+# If you do not need to display math formulas on the blog, disabling MathJax will improve the load time a little bit
+disable_mathjax: false
+
+# It's recommended to use reverse proxy for duoshuo avatars, so as to support ssl.
+# In that way, you need to serve a modified version of the embed.js file.
+# Then you can serve that file in any server/cdn and put its address here.
+# https://quericy.me/blog/788
+# https://imququ.com/post/duoshuo-and-https.html
+duoshuo_embed_url:
+
+archive_generator:
+    per_page: 0
+
+enforce_ssl_on_domains:
+    - 'haukurk.github.io'

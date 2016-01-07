@@ -1,0 +1,27 @@
+.post-list {
+    margin-top: -2rem;    // to compensate the padding-top of the first item
+    padding: 0;
+
+    .post-list-item {
+        padding: 2rem 1rem;
+        border-bottom: 1px solid $border-color;
+    }
+
+    .post-content {
+        margin-bottom: 1rem;
+
+        h2, h3, h4, h5, h6 {
+            &:before {
+                content: '';
+            }
+        }
+
+        & > ul {
+            list-style: initial;
+        }
+    }
+
+    .read-more {
+        color: $theme-primary;
+    }
+}

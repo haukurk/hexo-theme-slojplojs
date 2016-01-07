@@ -1,0 +1,17 @@
+.pagination {
+    margin-bottom: 2rem;
+    overflow: hidden;
+
+    .prev, .next {
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+
+    .prev {
+        float: left;
+    }
+    .next {
+        float: right;
+    }
+}

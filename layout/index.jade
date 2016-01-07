@@ -1,0 +1,9 @@
+extends layouts/base
+
+block content
+    include mixins/post
+    +posts()
+
+block footer
+    include mixins/pagination
+    +home_page_nav()
