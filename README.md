@@ -1,4 +1,4 @@
-![screenshot](https://cloud.githubusercontent.com/assets/3277634/12009566/4c2cd29a-acb8-11e5-9ddd-a66c6a105208.png)
+![screenshot](https://cloud.githubusercontent.com/assets/223343/12169013/ea8fb8d0-b52d-11e5-8746-4eaec0d4d251.png)
 
 ## Install
 
